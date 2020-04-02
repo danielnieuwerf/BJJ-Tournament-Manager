@@ -1,6 +1,6 @@
 # BJJ-Tournament-Manager
 
-Currently developing a BJJ tournament management platform. The goal of this project is to develop a website similar to smoothcomp.com. I'm developing the backend in C++ testing functionality in the console using Microsoft Visual Studio. Run the BJJTournamentManager.cpp file to see the current functionality.
+Currently developing a BJJ tournament management platform. The goal of this project is to develop a website similar to smoothcomp.com. I'm developing the backend in C++, testing my code in the console using Microsoft Visual Studio. Run the BJJTournamentManager.cpp file to see the current functionality.
 
 Current features:
 - Create a new tournament
