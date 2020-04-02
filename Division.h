@@ -80,8 +80,6 @@ public:
 
 	}
 	void printParticipants() {
-		// only print if non empty
-
 		isMale ? cout << "Male " : cout << "Female ";
 		isGi ? cout << "Gi " : cout << "No-gi ";
 		cout << belt << " " << weightClass << "kg:" << endl;
@@ -116,12 +114,15 @@ public:
 			participants.push_back(Fighter(1));	//add byes to participants
 		}
 		randomiseParticipantsOrder();
+		displayBracket();
+	}
+	void displayBracket() {
 		int i = 1;
 		cout << "----------------------------------------" << endl;
 		cout << belt << " " << weightClass << "kg:" << endl;
 		cout << "----------------------------------------" << endl;
 		for (auto f : participants) {
-			cout <<i<<". "<< f.getName() << endl << f.getTeam() << endl<<endl;
+			cout << i << ". " << f.getName() << endl << f.getTeam() << endl << endl;
 			i++;
 		}
 		cout << "----------------------------------------" << endl;
