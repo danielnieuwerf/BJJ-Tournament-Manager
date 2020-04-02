@@ -36,6 +36,9 @@ int main()
     fighter1.setWins(22);
     fighter1.setLosses(6);
     
+    // fighter1 profile display
+    // fighter1.fighterProfile();
+
     // create Tournament
     auto tourn1 = Tournament("English Open No-gi", Date(20, 4, 2020), Date(20, 4, 2020));
     tourn1.setIBJJFNoGiDivisions();     //set tournament divisions
